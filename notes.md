@@ -22,10 +22,3 @@
   - Tasks due in next 3 days
   - Busiest day (most tasks due)
 
-## Improvements
-
-- Add user authentication for multi-user support.
-- Add pagination and search to task list.
-- Use Alembic for DB migrations.
-- Add unit tests for API endpoints.
-- Enhance UI with charts (e.g., pie chart for priority breakdown).

@@ -4,10 +4,13 @@ from models import db, Task
 from database import init_db
 from insights import generate_insights
 from datetime import datetime
+from flask_migrate import Migrate
 
 app = Flask(__name__)
 CORS(app)
 init_db(app)
+
+migrate = Migrate(app, db)
 
 @app.route('/tasks', methods=['POST'])
 def add_task():
