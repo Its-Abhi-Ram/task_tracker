@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <h1>Task Tracker</h1>
-      <TaskForm onAdd={() => window.location.reload()} />
+      <TaskForm  />
       <TaskList />
       <InsightsPanel />
     </div>
